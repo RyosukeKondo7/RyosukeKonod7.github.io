@@ -1,197 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Support page for Subscription Manager app. Get help, FAQs, troubleshooting steps, and legal information.">
-    <title>Subscription Manager - Support</title>
-    <style>
-        :root {
-            --primary-color: #007AFF;
-            --text-color: #333;
-            --background-color: #f5f5f7;
-            --card-background: #ffffff;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Support page for Subscription Manager app."/>
+  <title>Subscription Manager - Support</title>
+  <style>
+    :root {
+      --primary-color: #007AFF;
+      --text-color: #333;
+      --background-color: #f5f5f7;
+      --card-background: #ffffff;
+    }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--background-color);
-        }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
 
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
+    .section {
+      background: var(--card-background);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
 
-        h1 {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
+    h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
 
-        .section {
-            background: var(--card-background);
-            border-radius: 12px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
 
-        h2 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
-        }
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
 
-        .contact-info {
-            margin: 1rem 0;
-        }
+    .faq-question {
+      font-weight: bold;
+    }
 
-        .faq-item {
-            margin-bottom: 1.5rem;
-        }
+    .steps {
+      padding-left: 1.5rem;
+    }
 
-        .faq-question {
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
+    .steps li {
+      margin-bottom: 0.5rem;
+    }
 
-        .faq-answer {
-            color: #666;
-        }
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
 
-        .steps {
-            list-style-type: none;
-        }
+    .lang-switch button {
+      padding: 0.5rem 1rem;
+      margin-left: 0.5rem;
+      border: none;
+      background: var(--primary-color);
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
 
-        .steps li {
-            margin-bottom: 0.5rem;
-            padding-left: 1.5rem;
-            position: relative;
-        }
+    .lang-switch button:hover {
+      opacity: 0.8;
+    }
 
-        .steps li:before {
-            content: "•";
-            color: var(--primary-color);
-            position: absolute;
-            left: 0;
-        }
+    [lang] {
+      display: none;
+    }
 
-        .links {
-            margin-top: 1rem;
-        }
-
-        .links a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-
-        .links a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 1rem;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .section {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    [lang].active {
+      display: block;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Subscription Manager Support</h1>
-            <p>We're here to help you manage your subscriptions effectively</p>
-        </header>
-
-        <section class="section">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <p>For support inquiries, please email: <a href="pronike371@gmail.com">pronike371@gmail.com</a></p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Frequently Asked Questions</h2>
-            
-            <div class="faq-item">
-                <p class="faq-question">How do I add a subscription?</p>
-                <div class="faq-answer">
-                    <ol class="steps">
-                        <li>Tap the + button in the top right corner</li>
-                        <li>Enter the subscription details (name, amount)</li>
-                        <li>Select a category</li>
-                        <li>Choose the currency</li>
-                        <li>Set the start date</li>
-                        <li>Tap Add to save</li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">How do I upgrade to Premium?</p>
-                <div class="faq-answer">
-                    <ol class="steps">
-                        <li>Tap the Premium button when you reach the subscription limit</li>
-                        <li>Review the premium features</li>
-                        <li>Tap "Upgrade Now"</li>
-                        <li>Complete the purchase using your Apple ID</li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">How do I restore my Premium purchase?</p>
-                <div class="faq-answer">
-                    <ol class="steps">
-                        <li>Go to Settings</li>
-                        <li>Tap "Restore Purchases"</li>
-                        <li>Sign in with your Apple ID if prompted</li>
-                    </ol>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Troubleshooting</h2>
-            <p>If you're experiencing any issues:</p>
-            <ol class="steps">
-                <li>Make sure you're running the latest version of the app</li>
-                <li>Try force-closing and reopening the app</li>
-                <li>Check your internet connection</li>
-                <li>Contact us if the issue persists</li>
-            </ol>
-        </section>
-
-        <section class="section">
-            <h2>Legal Information</h2>
-            <div class="links">
-                <p><a href="privacy-policy.html">Privacy Policy</a></p>
-                <p><a href="terms-of-service.html">Terms of Service</a></p>
-            </div>
-        </section>
+  <div class="container">
+    <div class="lang-switch">
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('ja')">日本語</button>
     </div>
+
+    <!-- English Content -->
+    <div lang="en" class="active">
+      <h1>Subscription Manager Support</h1>
+
+      <section class="section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="pronike371@gmail.com">pronike371@gmail.com</a></p>
+      </section>
+
+      <section class="section">
+        <h2>FAQs</h2>
+        <div class="faq-item">
+          <p class="faq-question">How do I add a subscription?</p>
+          <ol class="steps">
+            <li>Tap the + button</li>
+            <li>Enter details</li>
+            <li>Select category</li>
+            <li>Set currency and start date</li>
+            <li>Tap Add</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Legal</h2>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        <p><a href="terms-of-service.html">Terms of Service</a></p>
+      </section>
+    </div>
+
+    <!-- Japanese Content -->
+    <div lang="ja">
+      <h1>サブスクリプション管理アプリ サポート</h1>
+
+      <section class="section">
+        <h2>お問い合わせ</h2>
+        <p>メール: <a href="pronike371@gmail.com">pronike371@gmail.com</a></p>
+      </section>
+
+      <section class="section">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <p class="faq-question">サブスクリプションを追加するには？</p>
+          <ol class="steps">
+            <li>＋ボタンをタップ</li>
+            <li>情報を入力</li>
+            <li>カテゴリを選択</li>
+            <li>通貨と開始日を設定</li>
+            <li>「追加」をタップ</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>法的情報</h2>
+        <p><a href="privacy-policy.html">プライバシーポリシー</a></p>
+        <p><a href="terms-of-service.html">利用規約</a></p>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll('[lang]').forEach(el => {
+        el.classList.remove('active');
+      });
+      document.querySelector('[lang="' + lang + '"]').classList.add('active');
+    }
+
+    // Detect browser language
+    const browserLang = navigator.language.startsWith('ja') ? 'ja' : 'en';
+    setLanguage(browserLang);
+  </script>
 </body>
 </html>
