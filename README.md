@@ -1,12 +1,9 @@
-# RyosukeKonod7.github.io
-Subscription Manage App Privacy Policy
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support page for Subscription Manager app. Get help, FAQs, troubleshooting steps, and legal information.">
     <title>Subscription Manager - Support</title>
     <style>
         :root {
@@ -132,7 +129,7 @@ Subscription Manage App Privacy Policy
         <section class="section">
             <h2>Contact Us</h2>
             <div class="contact-info">
-                <p>For support inquiries, please email: <a href="mailto:support@subscriptionmanager.app">support@subscriptionmanager.app</a></p>
+                <p>For support inquiries, please email: <a href="pronike371@gmail.com">pronike371@gmail.com</a></p>
             </div>
         </section>
 
@@ -141,7 +138,7 @@ Subscription Manage App Privacy Policy
             
             <div class="faq-item">
                 <p class="faq-question">How do I add a subscription?</p>
-                <p class="faq-answer">
+                <div class="faq-answer">
                     <ol class="steps">
                         <li>Tap the + button in the top right corner</li>
                         <li>Enter the subscription details (name, amount)</li>
@@ -150,30 +147,30 @@ Subscription Manage App Privacy Policy
                         <li>Set the start date</li>
                         <li>Tap Add to save</li>
                     </ol>
-                </p>
+                </div>
             </div>
 
             <div class="faq-item">
                 <p class="faq-question">How do I upgrade to Premium?</p>
-                <p class="faq-answer">
+                <div class="faq-answer">
                     <ol class="steps">
                         <li>Tap the Premium button when you reach the subscription limit</li>
                         <li>Review the premium features</li>
                         <li>Tap "Upgrade Now"</li>
                         <li>Complete the purchase using your Apple ID</li>
                     </ol>
-                </p>
+                </div>
             </div>
 
             <div class="faq-item">
                 <p class="faq-question">How do I restore my Premium purchase?</p>
-                <p class="faq-answer">
+                <div class="faq-answer">
                     <ol class="steps">
                         <li>Go to Settings</li>
                         <li>Tap "Restore Purchases"</li>
                         <li>Sign in with your Apple ID if prompted</li>
                     </ol>
-                </p>
+                </div>
             </div>
         </section>
 
@@ -197,4 +194,4 @@ Subscription Manage App Privacy Policy
         </section>
     </div>
 </body>
-</html> 
+</html>
