@@ -129,7 +129,7 @@
         <section class="section">
             <h2>Contact Us</h2>
             <div class="contact-info">
-                <p>For support inquiries, please email: <a href="pronike371@gmail.com">pronike371@gmail.com</a></p>
+                <p>For support inquiries, please email: <a href="sublistscontact1@gmail.com">sublistscontact1@gmail.com</a></p>
             </div>
         </section>
 
